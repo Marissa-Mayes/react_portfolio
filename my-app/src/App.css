@@ -31,3 +31,16 @@ background: linear-gradient(to right, #4389A2, #5C258D); /* W3C, IE 10+/ Edge, F
     font-size: 25px;
     color: white;
 }
+.social-links{
+   display: flex;
+   justify-content: space-between;
+   width: 15%;
+   margin: auto;
+
+}
+
+.social-links i{
+    color: white;
+    font-size: 5em;
+    padding: 8px;
+}
