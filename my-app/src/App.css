@@ -14,3 +14,20 @@ background: linear-gradient(to right, #4389A2, #5C258D); /* W3C, IE 10+/ Edge, F
     padding-top: 5em;
 
 }
+.banner-text{
+    opacity: .8;
+    width: 75%;
+    margin: auto;
+    border-radius: 10px;
+}
+.banner-text h1{
+    font-size: 66px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+.banner-text P{
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}
