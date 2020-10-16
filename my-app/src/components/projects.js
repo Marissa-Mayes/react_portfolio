@@ -6,7 +6,22 @@ class Project extends Component{
         super(props);
         this.state ={activeTab: 0 };
     }
-
+        moveCat(){
+            if (this.state.activeTab === 0){
+                return(
+                    <div><h1>React Page</h1></div>
+                )
+            } else if(this.state.activeTab === 1 ){
+                return (
+                    <div><h1> JavaScript Page</h1></div>
+                )
+            }   else if(this.state.activeTab === 2){
+                return (
+                    <div><h1>Express Page</h1></div>
+                )
+            }
+            
+        }
     render(){
         return (
            <div className="category-tabs">
@@ -15,6 +30,9 @@ class Project extends Component{
                    <Tab>JavaScript</Tab>
                    <Tab>Express</Tab>
                    </Tabs>
+                   <section className="projects-grid">
+                     {this.moveCat()}
+                   </section>
                    </div>
     
         
